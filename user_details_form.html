@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>customer details</title>
+    <style>
+        label {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #abc {
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: 850px;
+            padding-left: 30px;
+            background-color: rgba(88, 48, 13, 0.73);
+            color: blanchedalmond;
+        }
+        
+        input {
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+
+<div id="abc">
+
+    <body style="padding-left:500px; background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/18ba7ea6-392b-4145-8144-4919e8e70ad9/dfonwbx-190e4ac7-2f02-445f-a6c5-31cdad9cc64b.png/v1/fill/w_1264,h_632,q_70,strp/muscle_car_14_by_chaoticabstract_dfonwbx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE4YmE3ZWE2LTM5MmItNDE0NS04MTQ0LTQ5MTllOGU3MGFkOVwvZGZvbndieC0xOTBlNGFjNy0yZjAyLTQ0NWYtYTZjNS0zMWNkYWQ5Y2M2NGIucG5nIiwiaGVpZ2h0IjoiPD04MDAiLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC8xOGJhN2VhNi0zOTJiLTQxNDUtODE0NC00OTE5ZThlNzBhZDlcL2NoYW90aWNhYnN0cmFjdC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.Feu0JTMB_5NdBbjOlNSiFdV284AAMIfjYLPeaBXp2DQ'); background-position: center; background-repeat: no-repeat; background-size: cover; ">
+
+        <div style="text-align: center;">
+            <h1 style="color:rgb(255, 191, 0);">User Information</h1>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+
+            <label>name:</label>
+            <div style="display: flex; flex-direction: row; padding-left: 150px;">
+                <input type="text" placeholder="enter your name"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>age: </label>
+            <div style="display: flex; flex-direction: row; padding-left: 162px;">
+                <input type="text" placeholder="enter your age"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>phone number:</label>
+            <div style="display: flex; flex-direction: row; padding-left: 92px;">
+                <input type="tel" placeholder="enter your aadhar number" pattern="[0-10]*" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'')"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>email id:</label>
+            <div style="display:flex; flex-direction: row; padding-left:132px;">
+                <input type="text" placeholder="enter your emial id"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>pan details:</label>
+            <div style="display:flex; flex-direction: row; padding-left:120px;">
+                <input type="text" placeholder="enyer your pan card number"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>driving licience:</label>
+            <div style="display:flex; flex-direction: row; padding-left:130px;">
+                <input type="radio" name="driving licience" value="yes">yes
+                <input type="radio" name="driving licience" value="no">no<br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>enter your licience number:</label>
+            <div style="display:flex; flex-direction: row; padding-left:15px;">
+                <input type="text" placeholder="must contain numbers"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>licience expiry date:</label>
+            <div style="display:flex; flex-direction: row; padding-left:90px;">
+                <input type="date">
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>licience pic front:</label>
+            <div style="display:flex; flex-direction: row; padding-left:75px;">
+                <input type="file"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>licience pic backside:</label>
+            <div style="display:flex; flex-direction: row; padding-left:50px;">
+                <input type="file" required><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>aadhar card number:</label>
+            <div style="display:flex; flex-direction: row; padding-left:50px;">
+                <input type="tel" placeholder="enter your aadhar number" pattern="[0-12]*" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'')"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>driver type:</label>
+            <div style="display:flex; flex-direction: row; padding-left:132px;">
+                <input type="radio" name="driver">own
+                <input type="radio" name="driver">driver<br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>bike rental starting date:</label>
+            <div style="display:flex; flex-direction: row; padding-left:60px;">
+                <input type="date"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>bike rental ending date:</label>
+            <div style="display:flex; flex-direction: row; padding-left:64px;">
+                <input type="date"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <lable>enter no. of days:</lable>
+            <div style="display:flex; flex-direction: row; padding-left:70px;">
+                <input type="number" placeholder="up for 1 down for -1"><br>
+            </div>
+        </div><br>
+        <div style="display: flex; flex-direction: row;">
+            <label>total price:</label>
+            <div style="display:flex; flex-direction: row; padding-left:110px;">
+                <input type="tel" placeholder="ur price" pattern="[0-9]*" maxlength="5" oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+            </div>
+        </div><br>
+
+        <div style="padding-bottom: 5px; text-align: center;">
+            <a href="C:\Users\premc\OneDrive\Desktop\Eservice\payment.html"><input type="button" value="next"></a>
+        </div>
+    </body>
+</div>
