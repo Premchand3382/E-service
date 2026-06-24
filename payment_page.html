@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>payment page</title>
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        
+        #abc {
+            padding-top: 130px;
+        }
+        
+        body {
+            background-color: rgba(6, 3, 1, 0.785);
+        }
+        
+        h1 {
+            color: rgb(227, 164, 6)
+        }
+        
+        h3 {
+            color: blanchedalmond
+        }
+    </style>
+
+    <body>
+
+        <form>
+            <h1>Please scan this QR and pay amount</h1>
+            <h3>
+
+                Note: This payment will be checked before the slot confirmation and please wait till the payment page is in verification process.
+
+            </h3>
+            <div id="abc">
+                <center>
+                    <image src="C:\Users\premc\OneDrive\Documents\sqlfiles\qr.jpeg"></image>
+                </center>
+            </div>
+            <br>
+            <div align="center">
+                <input id="payment" type="button" value="submit">
+            </div>
+        </form>
+        <script>
+            document.getElementById("payment").addEventListener("click", function() {
+                window.alert("payment successfull")
+                window.history.go(-4);
+            });
+        </script>
